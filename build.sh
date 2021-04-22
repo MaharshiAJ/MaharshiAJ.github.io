@@ -1,5 +1,5 @@
 jekyll build && rm -r ../MaharshiAJ.github.io/{404.html,assets,index.html,projects}
-cp _site/* ../MaharshiAJ.github.io/
+cp -r _site/* ../MaharshiAJ.github.io/
 cd ../MaharshiAJ.github.io/
 git add .
 git commit -m "Website update"
